@@ -1,1 +1,1 @@
-# Terraform AWS Lab
+# Terraform AWS Labs
