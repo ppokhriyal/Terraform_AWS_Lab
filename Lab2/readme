@@ -1,0 +1,15 @@
+Create Public-Private ssh keys
+==============================
+
+I am using Ubuntu for creating the SSH keys
+
+Command => $ sudo ssh-keygen -f sshkey
+
+Once you press enter it will ask for PassPhrase,so just ignore it and press enter and proceed.
+Once the above command is executed successfully,two keys will be generated
+
+-> Private key [ sshkey ]
+-> Public key  [ sshkey.pub ]
+
+Private key will be used for taking the SSH of the Ubuntu EC2 instance.
+Public key will appear in "Key-Pair" section of AWS EC2.
