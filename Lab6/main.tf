@@ -1,5 +1,5 @@
 //Create S3 Bucket
-//Upload Single File
+//Upload Multiple File
 //Make it public
 //Enable Versioning on Bucket
 
@@ -24,7 +24,7 @@ resource "aws_s3_bucket" "firstbucket" {
   }
 }
 
-//Upload single file
+//Upload multiple file
 resource "aws_s3_bucket_object" "fileobject" {
     bucket = aws_s3_bucket.firstbucket.id
     key = "Resume.docx"
